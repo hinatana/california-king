@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Commissioner');
 
 body{
-
- 
   font-family: 'Commissioner';
-
-
 }
 
+
+/* Flexbox Navbar */
 .flexbox-header {
     display: flex;
 }
@@ -20,8 +18,6 @@ body{
     grid-column: 1 / -1;
 }
 
-
-
 .flexbox-header > div {
   display: flex;
   font-size: 1em;
@@ -33,7 +29,6 @@ body{
   color: white;
 }
 
-
 .header {
     background-color: #000000        ;	
 }
@@ -41,3 +36,33 @@ body{
 .header :nth-child(2) {
     padding: 0 40px;
 }
+
+
+
+/* Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+/* fonts */
+h1{
+
+  font-size: 35px;
+  text-align: center;
+  color: #486255;
+border: solid;
+padding: 0.3em;
+}
+
+p{
+
+  font-size: 30px;  
+  color: #486255;
+  text-align: center;
+  padding: 0.3em;
+}
+
