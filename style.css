@@ -29,13 +29,13 @@ body{
 }
 
 .flexbox-header {
-  background-color: #d81b60    ;
+  background-color: #ff6f00       ;
   color: white;
 }
 
 
 .header {
-    background-color: #d81b60    ;	
+    background-color: #ff6f00       ;	
 }
 
 .header :nth-child(2) {
