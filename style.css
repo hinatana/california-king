@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner');
+
+body{
+
+ 
+  font-family: 'Commissioner';
+
+
+}
+
+.flexbox-header {
+    display: flex;
+}
+
+.flexbox-header > div:nth-child(3) {
+    margin-left: auto;
+}
+
+.header {
+    grid-column: 1 / -1;
+}
+
+
+
+.flexbox-header > div {
+  display: flex;
+  font-size: 1em;
+  padding: 10px 20px;
+}
+
+.flexbox-header {
+  background-color: #d81b60    ;
+  color: white;
+}
+
+
+.header {
+    background-color: #d81b60    ;	
+}
+
+.header :nth-child(2) {
+    padding: 0 40px;
+}
