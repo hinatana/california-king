@@ -74,7 +74,17 @@ p{
   display: flex;
   flex-direction: column;
   align-items: center;
+   
 }
 
+
+.image1{
+
+  height: auto;
+  width: 100%;
+
+  max-width: 720px;
+
+}
 
 
