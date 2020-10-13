@@ -2,6 +2,7 @@
 
 body{
   font-family: 'Commissioner';
+  background-image: url("images/vinyl.jpg");
 }
 
 
@@ -40,27 +41,32 @@ body{
 
 /* fonts */
 h1{
-
+border: solid;
+border-color: black;
+background-color: black;
   font-size: 35px;
   text-align: center;
-  color: #486255;
-  padding: 0.3em;
+  color: white;
+  padding: 0.2em;
+
 }
 
 h2{
 
   font-size: 30px;
   text-align: center;
-  color: #486255;
+  color: white;
 
 }
 
 p{
-
-  font-size: 30px;  
-  color: #486255;
+border: solid;
+border-color: black;
+background-color: black;
+  font-size: 25px;
   text-align: center;
-
+  color: white;
+  padding:0.2em;
 }
 
 /* Containers */
@@ -69,6 +75,8 @@ p{
   flex-direction: column;
   align-items: center;
 }
+
+
 
 .main {
   display: flex;
