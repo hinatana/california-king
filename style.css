@@ -90,9 +90,13 @@ background-color: black;
 
   height: auto;
   width: 100%;
-
   max-width: 350px;
+ 
 
 }
-
+@media screen and (max-width: 600px) {
+  .image1 {
+ max-width: 250px;
+  }
+}
 
