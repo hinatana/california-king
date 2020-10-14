@@ -51,7 +51,11 @@ background-color: black;
 
 }
 
+
 h2{
+  text-align: center;
+  border:solid;
+  background-color: black;
 
   font-size: 30px;
   text-align: center;
@@ -87,11 +91,12 @@ background-color: black;
 
 
 .image1{
-
+  border: solid;
+border-color: white;
   height: auto;
   width: 100%;
   max-width: 350px;
- 
+  
 
 }
 @media screen and (max-width: 600px) {
