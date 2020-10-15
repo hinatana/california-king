@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner');
+
+body{
+  font-family: 'Commissioner';
+
+}
+
+
+/* Flexbox Navbar */
+.flexbox-header {
+    display: flex;
+          position: fixed;
+          background-color: blue;
+          justify-content: aut
+}
+
+.flexbox-header > div:nth-child(3)  repeat(auto-fit); {
+  
+
+}
+
+.header {
+    grid-column: 1 / -1;
+    repeat(auto-fit)
+}
+
+
+.flexbox-header > div {
+  display: flex;
+  font-size: 1em;
+
+  padding: 10px 20px;
+}
+
